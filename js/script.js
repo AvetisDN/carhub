@@ -21,7 +21,7 @@
                         $(sideMenu).removeClass('open');
                     }
                 },
-                threshold: 0
+                threshold: 20
             });
         }
     });
