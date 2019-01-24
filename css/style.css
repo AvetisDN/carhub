@@ -189,7 +189,6 @@ a {
     background-color: #ffc61a;
     padding-top: 140px;
     padding-bottom: 140px;
-    font-size: 18px;
 }
 .book .book--text h3,
 .book .book--text h2 {
@@ -239,11 +238,21 @@ a {
 .book .book--form .book--form-container input:focus,
 .book .book--form .book--form-container select:focus {
     border-bottom: 3px solid #7e7e7e;
+    outline: none;
+    border-radius: 0;
 }
 
 @media screen and (max-width: 1024px) {
     .book {
         padding-top: 80px;
         padding-bottom: 80px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .book .book--text h3 {
+        font-size: 1.2em;
+    }
+    .book .book--text h2 {
+        font-size: 1.8em;
     }
 }
