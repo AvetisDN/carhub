@@ -210,6 +210,7 @@ a {
     background-color: #fff;
     padding: 15px 25px;
     box-sizing: border-box;
+    box-shadow: rgba(0,0,0,.15) 0 0 30px;
 }
 .book .book--form .book--form-container h3 {
     text-transform: uppercase;
